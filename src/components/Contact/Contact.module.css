@@ -1,0 +1,12 @@
+.deletBtn {
+  background-color: rgb(229, 118, 26);
+  border: none;
+  cursor: pointer;
+
+  align-items: center;
+  margin: 10px;
+}
+
+.deletBtn:hover {
+  color: red;
+}

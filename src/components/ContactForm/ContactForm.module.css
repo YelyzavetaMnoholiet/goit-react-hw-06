@@ -1,0 +1,29 @@
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+input {
+  padding: 8px;
+  margin: 5px 0;
+}
+
+button {
+  padding: 8px;
+  background-color: #ef8811;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #d7730e;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
