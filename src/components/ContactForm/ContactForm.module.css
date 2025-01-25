@@ -13,15 +13,25 @@ input {
 }
 
 button {
-  padding: 8px;
-  background-color: #ef8811;
+  background: linear-gradient(90deg, #ff7e5f, #feb47b, #6a11cb, #2575fc);
+  background-size: 300% 100%;
+  animation: gradientAnimation 5s infinite;
   color: white;
+  padding: 10px 20px;
+  font-size: 1rem;
   border: none;
+  border-radius: 30px;
   cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 button:hover {
-  background-color: #d7730e;
+  transform: scale(1.1);
+}
+
+button:active {
+  transform: scale(0.95);
 }
 
 .error {
